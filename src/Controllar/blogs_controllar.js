@@ -7,11 +7,11 @@ const getBlogs = (req, res) => {
 };
 
 const addBlog = (req, res) => {
-  res.send("Blogs added");
+  res.send("Blog added");
 };
 
 const updateBlog = (req, res) => {
-  res.send("Blogs Updated");
+  res.send("Blog Updated");
 };
 
 const deleteBlog = (req, res) => {
